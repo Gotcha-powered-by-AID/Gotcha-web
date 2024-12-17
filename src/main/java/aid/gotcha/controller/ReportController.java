@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3030") // 리액트 애플리케이션 주소
+@CrossOrigin(origins = "http://gotcha-aid.site/") // 리액트 애플리케이션 주소
 @RestController
 @RequestMapping("/api/data")
 public class ReportController {
