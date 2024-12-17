@@ -1,0 +1,123 @@
+/* Login.css */
+.login-page {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  background-image: url('../public/resources/background.png');
+  background-size: cover;
+  background-position: left;
+}
+
+.logo {
+  width: 140%;
+  padding-right: 20%;
+  margin-bottom: 5%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 28%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3%;
+  margin-right: 8%;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-button {
+  width: 100%;
+  padding: 3%;
+  font-size: 1rem;
+  background: linear-gradient(25deg, #8E37D7, #6B8DD6, #2CD8D5); 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-button {
+  width: 100%;
+  padding: 4%;
+  font-size: 1rem;
+  background: transparent;
+  color: #000; 
+  border: 1.5px solid transparent; 
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(200, 200, 200); /* 버튼 윤곽에 그림자 추가 */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+.input-container label {
+  margin-bottom: 3%;
+  font-size: 12px;
+  color: #333;
+}
+
+.input-container input {
+  padding: 4%;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #DBDBDB;
+}
+
+.separate {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.separate hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #A6A6A6; 
+  margin: 0 5px; 
+}
+
+.separate span {
+  margin: 0 10px;
+}
+
+/* 에러 메시지 영역 */
+.error-message {
+  background-color: rgba(107, 141, 214, 0.1); /* 배경색 */
+  color: #000; /* 텍스트 색상 */
+  border: 1px solid #6B8DD6; /* 테두리 */
+  padding: 8px; /* 내부 여백 */
+  font-size: 12px;
+  display: flex;
+  align-items: center; /* 아이콘과 텍스트 정렬 */
+  width: 100%;
+}
+
+/* 에러 메시지 컨테이너 */
+.error-message-container {
+  height: 40px; /* 고정 높이 설정 */
+  margin-bottom: 7%; /* 여유 공간 */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

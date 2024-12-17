@@ -1,0 +1,133 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+.account-info {
+  font-size: 14px;
+  position: absolute;
+  right: 20px;
+  margin-top: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  height: 500px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 77.2px;
+}
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section h4 {
+  margin-bottom: 10px;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-section ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.sidebar-section ul ul {
+  padding-left: 20px; /* 하위 목록 들여쓰기 */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end; /* 오른쪽 정렬 */
+  align-items: center;
+  gap: 10px; /* 요소 간 간격 */
+  margin-bottom: 20px; /* 검색바와 테이블 사이 여백 */
+}
+
+.search-bar input,
+.search-bar button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.data-table {
+  max-width: 1300px;
+  max-height: 500px; /* 테이블 높이를 500px로 고정 */
+  overflow-x: auto;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.update-data {
+  text-align: right; /* 오른쪽 정렬 */
+  margin-top: 10px; /* 테이블과의 간격 조정 */
+  font-size: 14px; /* 글자 크기 */
+  color: #333; /* 텍스트 색상 */
+}
