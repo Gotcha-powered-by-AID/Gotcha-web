@@ -87,7 +87,7 @@ sudo systemctl restart nginx
 
 ## 📁 디렉토리 구조
 ```
-📂 Gotcha-Web                   
+📂 Gotcha-web                   
 ├── 📂 gradle/wrapper           # Gradle 실행 설정 파일
 ├── 📂 node_modules             # 의존성 모듈
 ├── 📂 src                      # 소스 코드 디렉토리
