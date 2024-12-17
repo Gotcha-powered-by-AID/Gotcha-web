@@ -104,7 +104,7 @@ sudo systemctl restart nginx
 ## 🌟 주요 파일 설명
 - **`src/main/java/aid/gotcha/controller/ReportController.java`**: 클라이언트와 서버 간의 HTTP 요청/응답을 관리하는 REST API의 컨트롤러.
 - **`src/main/resources/application.properties`**: 데이터베이스 연결 및 JPA 관련 설정을 정의한 파일. 단, 보안을 위해 해당 파일은 공개되지 않음.
-- **`src/main/gotcha/src/Main.js`**: React 애플리케이션의 진입점으로, 컴포넌트를 렌더링하고 API 호출을 통해 백엔드에서 데이터를 가져와 화면에 표시.
+- **`src/main/gotcha/src/Main.js`**: 애플리케이션 컴포넌트를 렌더링하고 API 호출을 통해 백엔드에서 데이터를 가져와 화면에 표시.
 
 ---
 
